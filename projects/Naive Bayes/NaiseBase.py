@@ -11,14 +11,14 @@ import arff
 import wget
 
 # Download the dataset
-url = 'https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Wireless_v1_00.tsv.gz'
-my_file = Path("amazon_reviews_us_Wireless_v1_00.tsv.gzwc8rkdtr.tmp")
+url = 'https://s3.amazonaws.com/amazon-reviews-pds/tsv/sample_us.tsv'
+my_file = Path("sample_us.tsv")
 
 if not my_file.is_file():
     wget.download(url)
 # Read the dataset
 
-# data = pd.read_csv('sample_us.tsv',delimiter='\t',encoding='utf-8')
+data = pd.read_csv('sample_us.tsv',delimiter='\t',encoding='utf-8')
 # total length of list, this number equals total number of products
 print(len(data))
 
