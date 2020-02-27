@@ -1,0 +1,6 @@
+{
+    "python.pythonPath": "c:\\Users\\learning\\Desktop\\projects\\Git-Repos\\Machine-Learning\\projects\\NaiveBayesrcs\\venv\\Scripts\\python.exe",
+    "python.linting.pylintEnabled": false,
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true
+}
